@@ -124,7 +124,7 @@ console.log(dog2.name);                 // Jet
 Implement the following in the __problems/04-change-context.js__ file.
 
 Write a function named `changeContext(func, obj)` that will accept a
-function `func` and an object `obj`. The `changeContext` function should return
+function `func` and an object `obj`. Thei `changeContext` functon should return
 the result of the function `func` invoked with the object `obj` as its context.
 
 Test your implementation by running the test specs in the
