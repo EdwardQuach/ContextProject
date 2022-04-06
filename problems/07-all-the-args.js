@@ -1,5 +1,7 @@
 function allTheArgs(func, ...args) {
   // Your code here
+  let boundFunc = func.bind(func, ...args);
+  return boundFunc;
 }
 
 /*****************************************************************************/
